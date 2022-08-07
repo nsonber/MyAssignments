@@ -1,0 +1,138 @@
+2022-08-07 14:07:41,869 - INFO - ----------------------------
+2022-08-07 14:07:41,869 - INFO - Reading the file
+2022-08-07 14:07:41,875 - INFO - Datatype of ActivityDate columns before conversion: object
+2022-08-07 14:07:41,883 - INFO - Datatype of ActivityDate columns after conversion: datetime64[ns]
+2022-08-07 14:07:41,883 - INFO - Getting SQL DB connection
+2022-08-07 14:07:41,900 - INFO - Creating DB for the first time
+2022-08-07 14:07:41,902 - INFO - SQL DB connection acquired
+2022-08-07 14:07:41,906 - INFO - Getting SQL DB connection
+2022-08-07 14:07:41,913 - INFO - SQL DB connection acquired
+2022-08-07 14:07:41,915 - INFO - 4 . Find out in this data that how many unique id's we have?
+2022-08-07 14:07:41,915 - INFO - Total unique IDs in data : 35
+2022-08-07 14:07:41,915 - INFO - 5 . which id is one of the active id that you have in whole dataset?
+2022-08-07 14:07:41,917 - INFO - Most active ID : 8053475328
+2022-08-07 14:07:41,917 - INFO - 6 . how many of them have not logged there activity find out in terms of number of ids
+2022-08-07 14:07:41,919 - INFO - IDs with No LoggedActivitiesDistance 
+2022-08-07 14:07:41,919 - INFO -             Id  LoggedActivitiesDistance
+0   1503960366                       0.0
+32  8583815059                       0.0
+30  8253242879                       0.0
+29  8053475328                       0.0
+28  7086361926                       0.0
+25  6775888955                       0.0
+23  6290855005                       0.0
+22  6117666160                       0.0
+21  5577150313                       0.0
+20  5553957443                       0.0
+19  4702921684                       0.0
+18  4558609924                       0.0
+33  8792009665                       0.0
+16  4388161847                       0.0
+15  4319703577                       0.0
+17  4445114986                       0.0
+13  4020332650                       0.0
+1   1624580081                       0.0
+2   1644430081                       0.0
+3   1844505072                       0.0
+4   1927972279                       0.0
+6   2026352035                       0.0
+5   2022484408                       0.0
+8   2347167796                       0.0
+9   2873212765                       0.0
+11  3372868164                       0.0
+12  3977333714                       0.0
+7   2320127002                       0.0
+34  8877689391                       0.0
+2022-08-07 14:07:41,930 - INFO - 7 . Find out who is the laziest person id that we have in dataset
+2022-08-07 14:07:41,931 - INFO - Laziest ID based on most SedentaryMinutes : 4057192912
+2022-08-07 14:07:41,931 - INFO - 8 . Explore over an internet that how much calories burn is required for a healthyperson and find out how many healthy person we have in our dataset
+2022-08-07 14:07:41,933 - INFO - Healthy IDs who have lost more than 2200 calories per week: [1503960366 1624580081 1644430081 1844505072 1927972279 2022484408
+ 2026352035 2320127002 2347167796 2873212765 2891001357 3372868164
+ 3977333714 4020332650 4057192912 4319703577 4388161847 4445114986
+ 4558609924 4702921684 5553957443 5577150313 6117666160 6290855005
+ 6391747486 6775888955 6962181067 7007744171 7086361926 8053475328
+ 8253242879 8378563200 8583815059 8792009665 8877689391]
+2022-08-07 14:07:41,933 - INFO - 9. how many persons are not regular with respect to activity
+2022-08-07 14:07:41,935 - INFO - Top 5 irregular persons based on Variance in Calories lost : 25    6775888955
+10    2891001357
+34    8877689391
+2     1644430081
+22    6117666160
+Name: Id, dtype: int64
+2022-08-07 14:07:41,935 - INFO - 10 . who is the third most active person in this dataset find out those in pandas
+2022-08-07 14:07:41,937 - INFO - Third most active person based on VeryActiveMinutes : 8877689391
+2022-08-07 14:07:41,937 - INFO - 11 . who is the 5th laziest person available in dataset find it out
+2022-08-07 14:07:41,939 - INFO - 5th laziest person based on most SedentaryMinutes : 1503960366
+2022-08-07 14:07:41,939 - INFO - 12 . what is a total cumulative calories burn for a person find out
+2022-08-07 14:07:41,944 - INFO - Cumulative calories burned by each person :             Id  Calories
+13  4020332650     98412
+14  4057192912     60913
+19  4702921684     42322
+34  8877689391     41414
+31  8378563200     40274
+21  5577150313     36303
+0   1503960366     34128
+29  8053475328     31825
+17  4445114986     31617
+27  7007744171     31525
+8   2347167796     30320
+5   2022484408     29704
+26  6962181067     29249
+2   1644430081     29164
+4   1927972279     27048
+28  7086361926     26124
+1   1624580081     25705
+33  8792009665     24884
+25  6775888955     24523
+15  4319703577     23931
+18  4558609924     21962
+23  6290855005     21656
+20  5553957443     21630
+22  6117666160     20993
+9   2873212765     20349
+3   1844505072     19391
+32  8583815059     19130
+11  3372868164     18603
+7   2320127002     18385
+10  2891001357     18187
+30  8253242879     17556
+12  3977333714     16777
+6   2026352035     16266
+24  6391747486     15868
+16  4388161847     14442
+2022-08-07 22:10:36,327 - INFO - ----------------------------
+2022-08-07 22:10:36,418 - INFO - Reading the file
+2022-08-07 22:10:36,427 - INFO - Datatype of ActivityDate columns before conversion: object
+2022-08-07 22:10:36,440 - INFO - Datatype of ActivityDate columns after conversion: datetime64[ns]
+2022-08-07 22:10:36,441 - INFO - Getting SQL DB connection
+2022-08-07 22:10:36,484 - INFO - Creating DB for the first time
+2022-08-07 22:10:36,491 - INFO - SQL DB connection acquired
+2022-08-07 22:10:36,497 - INFO - Getting SQL DB connection
+2022-08-07 22:10:36,508 - INFO - SQL DB connection acquired
+2022-08-07 22:11:31,278 - INFO - ----------------------------
+2022-08-07 22:11:31,278 - INFO - Reading the file
+2022-08-07 22:11:31,282 - INFO - Datatype of ActivityDate columns before conversion: object
+2022-08-07 22:11:31,288 - INFO - Datatype of ActivityDate columns after conversion: datetime64[ns]
+2022-08-07 22:11:31,288 - INFO - Getting SQL DB connection
+2022-08-07 22:11:31,305 - INFO - Creating DB for the first time
+2022-08-07 22:11:31,307 - INFO - SQL DB connection acquired
+2022-08-07 22:11:31,309 - INFO - Getting SQL DB connection
+2022-08-07 22:11:31,314 - INFO - SQL DB connection acquired
+2022-08-07 22:11:31,321 - INFO - Getting SQL DB connection
+2022-08-07 22:11:31,325 - INFO - SQL DB connection acquired
+2022-08-07 22:11:31,326 - INFO - 4 . Find out in this data that how many unique id's we have?
+2022-08-07 22:11:31,329 - INFO - [(35,)]
+2022-08-07 22:12:36,926 - INFO - ----------------------------
+2022-08-07 22:12:36,926 - INFO - Reading the file
+2022-08-07 22:12:36,930 - INFO - Datatype of ActivityDate columns before conversion: object
+2022-08-07 22:12:36,936 - INFO - Datatype of ActivityDate columns after conversion: datetime64[ns]
+2022-08-07 22:12:36,937 - INFO - Getting SQL DB connection
+2022-08-07 22:12:36,950 - INFO - Creating DB for the first time
+2022-08-07 22:12:36,952 - INFO - SQL DB connection acquired
+2022-08-07 22:12:36,954 - INFO - Getting SQL DB connection
+2022-08-07 22:12:36,959 - INFO - SQL DB connection acquired
+2022-08-07 22:12:36,963 - INFO - Getting SQL DB connection
+2022-08-07 22:12:36,969 - INFO - SQL DB connection acquired
+2022-08-07 22:12:36,970 - INFO - 4 . Find out in this data that how many unique id's we have?
+2022-08-07 22:12:36,971 - INFO - Total unique IDs in data : 35
+2022-08-07 22:12:36,971 - INFO - 5 . which id is one of the active id that you have in whole dataset?
